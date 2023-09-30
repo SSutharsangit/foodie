@@ -1,0 +1,73 @@
+.cartcontainer{
+    width: 800px;
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0px auto;
+}
+.cartcontainer .cartleft{
+    width: 80% ;
+}
+.cartcontainer .cartleft .title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    
+}
+.cartcontainer .cartleft .diveder{
+    background-color: gray;
+    width: 97%;
+    height: 2px;
+    border-radius: 4px;
+}
+.cartcontainer .cartleft .content p{
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.cartcontainer .cartleft .backbtn button{
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+  }
+  .cartcontainer .cartright{
+    width: 20%;
+    ;
+  }
+  .cartcontainer .cartright .title{
+    text-align: left;
+    font-weight: lighter;
+    
+  }
+  .cartcontainer .cartright .diveder{
+    background-color: gray;
+    width: 99%;
+    height: 2px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .cartcontainer .cartright .condition{
+    background-color:  rgba(167, 16, 16, 0.86);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  .cartcontainer .cartright .amountcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cartcontainer .cartright .nettotal{
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,29 @@
+.foodcard{
+width: 300px;
+height: 300px;
+border: 2px solid #ccc; /* Add a 2px solid border with a gray color */
+border-radius: 20px;
+padding: 5px; /* Add some padding to create space between the content and the border */
+box-sizing: border-box;
+margin-bottom: 120px;
+}
+.foodcard .cardtop img{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+}
+.foodcard .cardcenter{
+    display: flex;
+    justify-content: space-between;
+}
+.foodcard .cardcenter p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.foodcard .cardbottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+}

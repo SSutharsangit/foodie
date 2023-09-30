@@ -1,0 +1,21 @@
+.today{
+margin-bottom: 50px;
+}
+.today .todaytop h2 {
+    text-align: center;
+    color: rgba(167, 16, 16, 0.86);
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.today .todaytop h6{
+    margin-top: 0px;
+color: red;
+text-align: center;
+font-size: 2rem;
+}
+.today .todaybottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}

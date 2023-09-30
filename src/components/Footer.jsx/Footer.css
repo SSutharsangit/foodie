@@ -1,0 +1,53 @@
+.footer {
+    background-color: #222;
+    color:white;
+    margin-top: 10px;
+}
+.footer .top1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .top1 .left1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.footer .center1{
+    width: 50%;
+    height: 2px;
+    border-radius: 20px;
+    background-color:#4d4d4d;
+}
+.footer .right1 {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the child elements horizontally */
+    align-items: center; /* Center the child elements vertically */
+}
+.footer .right1 a {
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color:rgba(167, 16, 16, 0.86);
+    color: white;
+    padding: 10px;
+    display: flex; /* Use flexbox to center the content horizontally and vertically */
+    align-items: center; /* Center the content vertically */
+    text-decoration: none; /* Remove underlines from links */
+}
+.footer .center11 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer .center11 h3{
+    margin-bottom: 1.2rem;
+    font-size: 20px;
+}
+.footer .center11  p{
+    font-size: 0.8;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.footer .bottom1 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
